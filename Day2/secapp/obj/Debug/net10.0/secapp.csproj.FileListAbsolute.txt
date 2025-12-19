@@ -1,0 +1,14 @@
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/bin/Debug/net10.0/secapp
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/bin/Debug/net10.0/secapp.deps.json
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/bin/Debug/net10.0/secapp.runtimeconfig.json
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/bin/Debug/net10.0/secapp.dll
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/bin/Debug/net10.0/secapp.pdb
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/obj/Debug/net10.0/secapp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/obj/Debug/net10.0/secapp.AssemblyInfoInputs.cache
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/obj/Debug/net10.0/secapp.AssemblyInfo.cs
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/obj/Debug/net10.0/secapp.csproj.CoreCompileInputs.cache
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/obj/Debug/net10.0/secapp.dll
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/obj/Debug/net10.0/refint/secapp.dll
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/obj/Debug/net10.0/secapp.pdb
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/obj/Debug/net10.0/secapp.genruntimeconfig.cache
+/Users/navneetagarwal/Desktop/donet/C#/Day2/secapp/obj/Debug/net10.0/ref/secapp.dll
