@@ -7,7 +7,8 @@ class Program
     {
 // Rev.Reverse();
 // Condition.Loops();
-Game.Gaming();
+// Game.Gaming();
+Fin.Finance();
         
     }
 }
