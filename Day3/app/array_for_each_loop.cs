@@ -52,39 +52,60 @@ using System;
 
 // paas by ref and value 
 
+// pass by ref  modified the value and give updated one
+// pass by val  not modifweid is allowed and the value remain same after and before
+
+// class Fore
+// {
+
+//     public static void PassByValue(int x)
+//     {
+//         x = x + 10;
+//         Console.WriteLine("Inside PassByVal: " + x);
+//     }
+//     public static void PassByRefer(ref int x)
+//     {
+//         x = x + 14;
+//         Console.WriteLine("Inside PassByRef: " + x);
+//     }
+//     public static void FOR()
+//     {
+//         int a = 5;
+//         int b = 5;
+
+//         Console.WriteLine("Before PassByVal: " + a);
+//         PassByValue(a);
+//         Console.WriteLine("After PassByVal: " + a);  
+
+//         Console.WriteLine();
+
+//         Console.WriteLine("Before PassByRef: " + b);
+//         PassByRefer(ref b);
+//         Console.WriteLine("After PassByRef " + b);  
+//     }
+// }
 
 
-class Fore
-{
 
-    public static void PassByValue(int x)
+// IN IS  the middleware it take by ref and value one one thing this take
+class Fore{
+        public static void OutExample(out int result)
+    { result = 50;
+        result += 10;
+        Console.WriteLine("Inside OutExample: " + result);}
+    public static void InExample(in int value)
     {
-        x = x + 10;
-        Console.WriteLine("Inside PassByValue: " + x);
-    }
-
-
-    public static void PassByRefer(ref int x)
-    {
-        x = x + 14;
-        Console.WriteLine("Inside PassByReference: " + x);
-    }
-
-    // Existing FOR method (can call our examples)
+        Console.WriteLine("Inside InExample (readonly): " + value);}
     public static void FOR()
     {
-        int a = 5;
-        int b = 5;
-
-        Console.WriteLine("Before PassByValue: " + a);
-        PassByValue(a);
-        Console.WriteLine("After PassByValue: " + a);  
+        int x;
+        OutExample(out x);
+        Console.WriteLine("After OutExample: " + x); // x is initialized and changed by method
 
         Console.WriteLine();
 
-        Console.WriteLine("Before PassByReference: " + b);
-        PassByRefer(ref b);
-        Console.WriteLine("After PassByReference: " + b);  
+        int y = 100;
+        InExample(in y);
+        Console.WriteLine("After InExample: " + y); // y remains unchanged
     }
 }
-
