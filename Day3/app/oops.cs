@@ -34,7 +34,7 @@ class Bank
 {
     public static void bank()
     {
-        BankAcc acc = new BankAcc("masoom", 220000);
+        BankAcc acc = new BankAcc("Navneet", 220000);
         Console.WriteLine(acc.name);
 
         Employee emp = new Employee("masoom", 20000);
