@@ -30,5 +30,6 @@ class Inde
         Console.WriteLine(sc[1]);
         Console.WriteLine(sc[2]);
         Console.WriteLine(sc[5]);
+        // returning indexces
     }
 }

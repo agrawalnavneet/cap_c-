@@ -10,5 +10,6 @@ class Program
         // Wall.Wallet();
         // Over.Overload();
         Fore.FOR();
+        assig.Assign();
     }
 }
