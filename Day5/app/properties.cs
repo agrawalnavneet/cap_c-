@@ -15,7 +15,7 @@ class Student
             else
                 Console.WriteLine("Name cannot be empty");
         }
-    }
+    } 
 
     public int Age
     {
