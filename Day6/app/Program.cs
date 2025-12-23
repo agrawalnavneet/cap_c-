@@ -5,7 +5,8 @@ class Program
 {
     static void Main()
     {
-      Navn.Navneet();
+      // Navn.Navneet();
+      Multi.Multiples();
  
 
     }
