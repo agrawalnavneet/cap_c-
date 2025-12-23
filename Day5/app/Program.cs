@@ -2,11 +2,14 @@
 
 class Program
 {
-     static void Main()
+    public static void Main()
     {
         // Console.WriteLine("Animal is eating");
-        // Animal.Eat();
-        Inde.Index();
+        // An.Ea();
+        // Inde.Index();
+        // inheri.inherit();
+        // Ram.Assignments();
     }
 }
 
+ 

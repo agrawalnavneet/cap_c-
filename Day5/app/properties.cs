@@ -41,8 +41,8 @@ class Student
     }
 }
 
-class Animal
-{    public static void Eat()
+class An
+{    public static void Ea()
     {
         Student s1 = new Student();
 
