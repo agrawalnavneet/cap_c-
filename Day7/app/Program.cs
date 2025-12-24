@@ -8,6 +8,7 @@ class Program
         // Port.Portfoli();
         // Main2.main2();
         // Box.box();
-        Gen.gen();
+        // Gen.gen();
+        Main6.main6();
     }
 }
