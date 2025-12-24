@@ -5,10 +5,11 @@ class Program
 {
     static void Main()
     {
-      // Navn.Navneet();
-      // Multi.Multiples();
-      // Poly.Polym();
- LibrarySystem.Na.Nam();
+        // Navn.Navneet();
+        // Multi.Multiples();
+        // Poly.Polym();
+        //  LibrarySystem.Na.Nam();
+        LibraryItemSystem.Obj.obj();
 
     }
 }
