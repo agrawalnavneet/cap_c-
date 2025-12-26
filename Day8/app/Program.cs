@@ -24,6 +24,7 @@ class Program
             //   Met4.met4();
                 // Met5.met5();
                 // Met6.met6();
-                Met7.met7();
+                // Met7.met7();
+                Assign.assign();
     }
 }
