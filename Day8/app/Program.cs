@@ -14,6 +14,8 @@ class Program
     // Sys2.sys2();
         // Sys3.sys3();
         // Sys4.sys4();
-        Sys5.sys5();
+        // Sys5.sys5();
+        // Ngen1.ngen1();
+          Ngen2.ngen2();
     }
 }

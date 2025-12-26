@@ -3,6 +3,46 @@ using System;
 using System.Collections.Generic;
 
 
+// Generic Collections-> fixed data type and  compile time error
+
+// List<T>
+
+// Dictionary<TKey, TValue>
+
+// Queue<T>
+
+// Stack<T>
+
+// HashSet<T>
+
+// SortedList<TKey, TValue>
+
+// SortedDictionary<TKey, TValue>
+
+
+
+
+
+
+// list  multiple value can store and  do not fix valuev at start  we can add or remove at any time
+class coll
+{
+    public static void Coll()
+    {
+
+        List<int> num= new List<int>();
+num.Add(2);
+num.Add(3);
+foreach(int n in num)
+Console.WriteLine(n);
+// Console.WriteLine(num[0]);
+        
+    }
+}
+
+
+
+
 // stack ->Lifo
 class Sys1
 {
