@@ -18,10 +18,16 @@ using System;
 // }
 
 
+using System;
+
 class Fun2
 {
     public static void fun2()
     {
-           int[] src = { 1, 2, 3 };
+        int[] src = { 1, 2  };
+
+        bool found = Array.Exists(src, x => x > 2);
+
+        Console.WriteLine(found);
     }
 }
