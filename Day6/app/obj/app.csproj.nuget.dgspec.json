@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/navneetagarwal/Desktop/donet/C#/Day6/app/app.csproj": {}
+    "/Users/navneetagarwal/Desktop/donet/C#/Day7/app/app.csproj": {}
   },
   "projects": {
-    "/Users/navneetagarwal/Desktop/donet/C#/Day6/app/app.csproj": {
+    "/Users/navneetagarwal/Desktop/donet/C#/Day7/app/app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/navneetagarwal/Desktop/donet/C#/Day6/app/app.csproj",
+        "projectUniqueName": "/Users/navneetagarwal/Desktop/donet/C#/Day7/app/app.csproj",
         "projectName": "app",
-        "projectPath": "/Users/navneetagarwal/Desktop/donet/C#/Day6/app/app.csproj",
+        "projectPath": "/Users/navneetagarwal/Desktop/donet/C#/Day7/app/app.csproj",
         "packagesPath": "/Users/navneetagarwal/.nuget/packages/",
-        "outputPath": "/Users/navneetagarwal/Desktop/donet/C#/Day6/app/obj/",
+        "outputPath": "/Users/navneetagarwal/Desktop/donet/C#/Day7/app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/navneetagarwal/.nuget/NuGet/NuGet.Config"

@@ -1,15 +1,14 @@
 ﻿
-using System;
+using  System;
 
 class Program
 {
-    static void Main()
+    public static void Main()
     {
-        // Navn.Navneet();
-        // Multi.Multiples();
-        // Poly.Polym();
-        //  LibrarySystem.Na.Nam();
-        LibraryItemSystem.Obj.obj();
-
+        // Port.Portfoli();
+        // Main2.main2();
+        // Box.box();
+        // Gen.gen();
+        Main6.main6();
     }
 }

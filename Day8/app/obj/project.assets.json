@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/navneetagarwal/Desktop/donet/C#/Day8/app/app.csproj",
+      "projectUniqueName": "/Users/navneetagarwal/Desktop/donet/C#/Day9/app/app.csproj",
       "projectName": "app",
-      "projectPath": "/Users/navneetagarwal/Desktop/donet/C#/Day8/app/app.csproj",
+      "projectPath": "/Users/navneetagarwal/Desktop/donet/C#/Day9/app/app.csproj",
       "packagesPath": "/Users/navneetagarwal/.nuget/packages/",
-      "outputPath": "/Users/navneetagarwal/Desktop/donet/C#/Day8/app/obj/",
+      "outputPath": "/Users/navneetagarwal/Desktop/donet/C#/Day9/app/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/navneetagarwal/.nuget/NuGet/NuGet.Config"
