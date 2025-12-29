@@ -8,8 +8,9 @@ class Program
     {
         
     //    Console.WriteLine("Hello, World!"); 
-Assign.assign();
-
+// Assign.assign();
+// QuickMartTraders.Funct2.Run(); 
+Main4.main4();
     }
 }
 

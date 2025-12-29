@@ -92,6 +92,7 @@ class PatientBill
         Console.WriteLine("\n----------- Last Bill -----------");
         Console.WriteLine($"BillId: {bill.BillId}");
         Console.WriteLine($"Patient: {bill.PatientName}");
+
         Console.WriteLine($"Insured: {(bill.HasInsurance ? "Yes" : "No")}");
         Console.WriteLine($"Consultation Fee: {bill.ConsultationFee:F2}");
         Console.WriteLine($"Lab Charges: {bill.LabCharges:F2}");
@@ -112,7 +113,7 @@ class PatientBill
 
 class Assign
 {
-    public static void Main(string[] args)
+    public static void Main1(string[] args)
     {
         assign();
     }
@@ -148,8 +149,8 @@ class Assign
                     break;
                 default:
                     Console.WriteLine("Invalid option.");
-                    break;
-            }
-        }
-    }
-}
+                    break;}}}}
+            
+        
+    
+
