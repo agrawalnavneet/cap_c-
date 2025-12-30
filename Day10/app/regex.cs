@@ -119,17 +119,37 @@ using System;
 
 // Group using match
 
-class Main7
+// class Main7
+// {
+//     public static void main7()
+//     {
+//         string input = "23-02-1992";
+//         string pattern = @"(\d{2})-(\d{2})-(\d{4})";
+
+//         Match m = Regex.Match(input, pattern);
+
+//         Console.WriteLine(m.Groups[1].Value); 
+//         Console.WriteLine(m.Groups[2].Value); 
+//         Console.WriteLine(m.Groups[3].Value); 
+//     }
+// }
+
+
+
+class Main8
 {
-    public static void main7()
+    public static void main8()
     {
-        string input = "23-02-1992";
-        string pattern = @"(\d{2})-(\d{2})-(\d{4})";
 
-        Match m = Regex.Match(input, pattern);
+           string input = "2002agrwawal@navneet.com";
+        string pattern = @"\b[\w.-]+@[\w.-]+\.\w{2,}\b";
+     
 
-        Console.WriteLine(m.Groups[1].Value); 
-        Console.WriteLine(m.Groups[2].Value); 
-        Console.WriteLine(m.Groups[3].Value); 
+        MatchCollection matches = Regex.Matches(input, pattern);
+
+        foreach (Match m in matches)
+        {
+            Console.WriteLine("Matched: " + m.Value);
+        }
     }
 }
