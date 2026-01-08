@@ -24,7 +24,7 @@ namespace CallbackDemo
         }
     }
 
-    class Program
+    class Main8
     {
 
         static void DisplayNotification(string file)
@@ -32,7 +32,7 @@ namespace CallbackDemo
             Console.WriteLine($"NOTIFICATION: You can now open {file}.");
         }
 
-        static void Main()
+      public  static void main8()
         {
             FileDownloader downloader = new FileDownloader();
             downloader.DownloadFile("Presentation.pdf", DisplayNotification);
