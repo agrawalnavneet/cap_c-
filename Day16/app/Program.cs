@@ -6,6 +6,7 @@ class Program
     public static void Main()
     {
         
-DialingCodesApp.Main1.main1();
+// DialingCodesApp.Main1.main1();
+Suger.suger();
     }
 }
