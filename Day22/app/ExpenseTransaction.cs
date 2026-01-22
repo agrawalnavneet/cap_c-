@@ -1,25 +1,48 @@
-public class ExpenseTransaction : Transaction
+using System;
+
+interface Int1
 {
-    public string VoucherNumber { get; }
-    public Category Category { get; }
+    void A();
+    void B();
+}
 
-    public ExpenseTransaction(decimal amount, string narration,
-                              string voucher, Category category)
-        : base(amount, narration)
+interface Int2
+{
+    void C();
+}
+
+interface Int3
+{
+    void D();
+}
+
+class Abc : Int1, Int2, Int3
+{
+    public void A()
     {
-        if (string.IsNullOrWhiteSpace(voucher))
-            throw new ArgumentException("Voucher number is required");
-
-        VoucherNumber = voucher;
-        Category = category;
+        Console.WriteLine("A");
     }
-
-    public override void Apply(PettyCashFund fund)
+    public void B()
     {
-        if (fund.Balance < Amount)
-            throw new InvalidOperationException("Insufficient balance");
+        Console.WriteLine("B");
+    }
+    public void C()
+    {
+        Console.WriteLine("C");
+    }
+    public void D()
+    {
+        Console.WriteLine("D");
+    }
+}
 
-        fund.Balance -= Amount;
-        Status = "Approved";
+class Main1
+{
+    public static void main1()
+    {
+        Abc abc = new Abc();
+        abc.A();
+        abc.B();
+        abc.C();
     }
 }
